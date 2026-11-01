@@ -15,6 +15,14 @@ people who have shipped more than I have.
 
 ## 🔨 What I'm building
 
+**[ConnectHub](https://github.com/dominicnkutha1-netize/ConnectHub)**
+Full-stack social network built from scratch — JWT auth, profiles with photo
+uploads, a friends-only post feed, and real-time chat over Socket.IO. No framework
+shortcuts and no managed backend: bcrypt, the Express routers and the WebSocket
+layer are all hand-rolled to learn what the frameworks actually do.
+<br>
+`React` · `Node.js` · `Express` · `Socket.IO` · `JWT`
+
 **[RichConnect](https://github.com/dominicnkutha1-netize/richconnect)**
 Accessibility-first student networking app. You describe yourself in one
 paragraph; Gemini turns it into a structured profile — course, tech stack, career
