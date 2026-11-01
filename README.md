@@ -35,9 +35,10 @@ and JavaScript doing the work.
 <br>
 `JavaScript` · `Supabase` · `CSS`
 
-**[Eskom Grid Tools](https://github.com/dominicnkutha1-netize/Eskomgrid)**
-Grid monitoring and protection prototypes built around South African grid
-constraints — control-room, transformer and resident views.
+**[GridGuard AI](https://github.com/dominicnkutha1-netize/Eskomgrid)** — [▶ live demo](https://dominicnkutha1-netize.github.io/Eskomgrid/)
+A grid monitoring and electricity-theft detection concept for South African
+distribution networks: RFID-authorised field work, instant outage detection, and
+anti-bridging alerts. Control-room, technician and resident views, fully clickable.
 <br>
 `HTML` · `JavaScript` · `Energy`
 
