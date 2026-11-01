@@ -86,7 +86,12 @@ I'd rather ship one thing that works than five that almost do.
 
 ## 📫 Get in touch
 
-- GitHub — you're here
-- Email — *add yours*
+I'm looking for my first role and I reply to everything.
+
+- **Email** — [dominicnkutha1@gmail.com](mailto:dominicnkutha1@gmail.com)
+- **Phone** — [063 243 2623](tel:+27632432623)
+- **GitHub** — [@dominicnkutha1-netize](https://github.com/dominicnkutha1-netize)
+
+📍 Johannesburg, Gauteng · available immediately · Code 10 licence and own transport
 
 <p align="center"><sub>Open to internships, junior roles, and interesting collaborations.</sub></p>
