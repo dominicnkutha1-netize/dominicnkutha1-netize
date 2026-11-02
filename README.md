@@ -1,58 +1,42 @@
-# Hi, I'm Dominic Nkutha 👋
+# Dominic Nkutha
 
-**Software developer in progress — full-stack web, cloud, and energy/grid tooling.**
-📍 Johannesburg, South Africa
+**Full-stack developer · cloud & DevOps · Johannesburg, South Africa**
+Open to junior developer, IT support and graduate programme roles.
 
-I build practical software and I show my working. My background is in energy and
-grid infrastructure, which is why so many of my projects start with a real South
-African problem rather than a tutorial.
+I build complete systems, not demos that stop at the happy path. In practice that
+means tests, a container, health checks, and a README that tells you what does
+not work yet. My background is in energy and grid operations, which is why most
+of these projects start from a real South African problem instead of a tutorial.
 
-Currently finishing a **Higher Certificate in IT** and looking for a
-**junior developer / internship / graduate programme** where I can learn from
-people who have shipped more than I have.
-
----
-
-## 🔨 What I'm building
-
-**[ConnectHub](https://github.com/dominicnkutha1-netize/ConnectHub)**
-Full-stack social network built from scratch — JWT auth, profiles with photo
-uploads, a friends-only post feed, and real-time chat over Socket.IO. No framework
-shortcuts and no managed backend: bcrypt, the Express routers and the WebSocket
-layer are all hand-rolled to learn what the frameworks actually do.
-<br>
-`React` · `Node.js` · `Express` · `Socket.IO` · `JWT`
-
-**[RichConnect](https://github.com/dominicnkutha1-netize/richconnect)**
-Accessibility-first student networking app. You describe yourself in one
-paragraph; Gemini turns it into a structured profile — course, tech stack, career
-goals — with sign-language and live-caption support modelled in from day one.
-<br>
-`React Native` · `TypeScript` · `Supabase` · `Gemini API`
-
-**[Forex Bot (MT5)](https://github.com/dominicnkutha1-netize/forex-bot-mt5)**
-A deliberately boring, risk-managed FX and gold execution engine for MetaTrader 5.
-Ships with a pessimistic backtester and a train/test sweep pipeline that rejected
-four of six symbols instead of overfitting them. Dashboard included.
-<br>
-`Python` · `FastAPI` · `MetaTrader 5` · `SQLite`
-
-**[CloudVault](https://github.com/dominicnkutha1-netize/cloudvault)**
-A clean cloud notes app on Supabase — no framework, no build step, just HTML, CSS
-and JavaScript doing the work.
-<br>
-`JavaScript` · `Supabase` · `CSS`
-
-**[GridGuard AI](https://github.com/dominicnkutha1-netize/Eskomgrid)** — [▶ live demo](https://dominicnkutha1-netize.github.io/Eskomgrid/)
-A grid monitoring and electricity-theft detection concept for South African
-distribution networks: RFID-authorised field work, instant outage detection, and
-anti-bridging alerts. Control-room, technician and resident views, fully clickable.
-<br>
-`HTML` · `JavaScript` · `Energy`
+I'm finishing a **Higher Certificate in IT** and looking for my first role on a
+team that ships.
 
 ---
 
-## 🧰 Tech I actually use
+## Selected work
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[ConnectHub](https://github.com/dominicnkutha1-netize/ConnectHub)** | Social network built from scratch — JWT auth, photo uploads, a friends-only feed and real-time chat. Containerised, tested, with Prometheus metrics and CI | React · Node · Socket.IO · Docker |
+| **[RichConnect](https://github.com/dominicnkutha1-netize/richconnect)** | Accessibility-first student networking. One paragraph in, a structured profile out, with sign-language and live-caption needs modelled as data | React Native · TypeScript · Supabase · Gemini |
+| **[GridGuard](https://github.com/dominicnkutha1-netize/gridguard)** · [demo](https://dominicnkutha1-netize.github.io/gridguard/) | Grid monitoring and electricity-theft detection concept: RFID-authorised field work, outage detection, anti-bridging alerts | HTML · JavaScript |
+| **[Forex engine](https://github.com/dominicnkutha1-netize/forex-bot-mt5)** | A deliberately boring, risk-managed MT5 execution engine with a pessimistic backtester and a train/test sweep that rejected four of six symbols | Python · FastAPI · SQLite |
+| **[CloudVault](https://github.com/dominicnkutha1-netize/cloudvault)** · [demo](https://dominicnkutha1-netize.github.io/cloudvault/) | Cloud notes app on Supabase — no framework, no build step | HTML · CSS · JavaScript |
+| **[NetScan](https://github.com/dominicnkutha1-netize/netscan)** | TCP port scanner with banner grabbing and per-port risk ratings, plus a terminal-style UI | Python · Flask |
+
+## What I care about in the code
+
+- **Tests that drive the real app.** ConnectHub's suite hits the actual Express
+  stack over HTTP, with an isolated data directory per test file.
+- **Operability as a feature.** Liveness and readiness probes that mean different
+  things, structured logs with request ids, graceful shutdown, a non-root
+  container.
+- **Security defaults.** Rate limiting, a content security policy, upload type
+  checks, and no secrets in the repository.
+- **Honest documentation.** Every README has a limitations section. A project
+  that claims to have no weaknesses has not been looked at hard enough.
+
+## Toolkit
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -60,41 +44,33 @@ anti-bridging alerts. Control-room, technician and resident views, fully clickab
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
----
+## Training
 
-## 📜 Coursework & training
-
-- **AWS Academy** — Cloud Foundations, Cloud Architecting, Cloud Operations, Cloud
-  Security Foundations
-- **Oracle Academy** — Java (AP CSA track), Database Foundations, Database Design,
-  OCI Foundations I & II
+- **AWS Academy** — Cloud Foundations, Cloud Architecting, Cloud Operations, Cloud Security Foundations
+- **Oracle Academy** — Java (AP CSA track), Database Foundations, Database Design, OCI Foundations I & II
 - **Cisco Networking Academy** — IT Customer Support Basics
-- **Higher Certificate in IT** — in progress
+- **Higher Certificate in IT** — in progress, expected 2026
 
 > These are course-completion badges, not vendor certifications. I'm working
-> toward my first proctored exam.
+> toward my first proctored exam and I won't describe them as anything else.
 
----
+## What I'm looking for
 
-## 🎯 What I'm looking for
-
-A junior developer, IT support, or graduate-programme role — or a team willing to
+A junior developer, IT support or graduate-programme role — or a team willing to
 take on someone who learns fast and finishes things. I'm especially interested in
-**energy, utilities, fintech, and public-sector systems**, because that's where my
+**energy, utilities, fintech and public-sector systems**, because that is where my
 projects already point.
 
 I'd rather ship one thing that works than five that almost do.
 
----
-
-## 📫 Get in touch
-
-I'm looking for my first role and I reply to everything.
+## Contact
 
 - **Email** — [dominicnkutha1@gmail.com](mailto:dominicnkutha1@gmail.com)
 - **Phone** — [063 243 2623](tel:+27632432623)
@@ -102,4 +78,4 @@ I'm looking for my first role and I reply to everything.
 
 📍 Johannesburg, Gauteng · available immediately · Code 10 licence and own transport
 
-<p align="center"><sub>Open to internships, junior roles, and interesting collaborations.</sub></p>
+<p align="center"><sub>Open to internships, junior roles and interesting collaborations.</sub></p>
