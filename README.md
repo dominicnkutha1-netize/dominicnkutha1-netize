@@ -17,10 +17,10 @@ team that ships.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[ConnectHub](https://github.com/dominicnkutha1-netize/ConnectHub)** | Social network built from scratch — JWT auth, photo uploads, a friends-only feed and real-time chat. Containerised, tested, with Prometheus metrics and CI | React · Node · Socket.IO · Docker |
+| **[ConnectHub](https://github.com/dominicnkutha1-netize/connecthub)** | Social network built from scratch — JWT auth, photo uploads, a friends-only feed and real-time chat. Containerised, tested, with Prometheus metrics and CI | React · Node · Socket.IO · Docker |
 | **[RichConnect](https://github.com/dominicnkutha1-netize/richconnect)** | Accessibility-first student networking. One paragraph in, a structured profile out, with sign-language and live-caption needs modelled as data | React Native · TypeScript · Supabase · Gemini |
 | **[GridGuard](https://github.com/dominicnkutha1-netize/gridguard)** · [demo](https://dominicnkutha1-netize.github.io/gridguard/) | Grid monitoring and electricity-theft detection concept: RFID-authorised field work, outage detection, anti-bridging alerts | HTML · JavaScript |
-| **[Forex engine](https://github.com/dominicnkutha1-netize/forex-bot-mt5)** | A deliberately boring, risk-managed MT5 execution engine with a pessimistic backtester and a train/test sweep that rejected four of six symbols | Python · FastAPI · SQLite |
+| **[Forex engine](https://github.com/dominicnkutha1-netize/forex-execution-engine)** | A deliberately boring, risk-managed MT5 execution engine with a pessimistic backtester and a train/test sweep that rejected four of six symbols | Python · FastAPI · SQLite |
 | **[CloudVault](https://github.com/dominicnkutha1-netize/cloudvault)** · [demo](https://dominicnkutha1-netize.github.io/cloudvault/) | Cloud notes app on Supabase — no framework, no build step | HTML · CSS · JavaScript |
 | **[NetScan](https://github.com/dominicnkutha1-netize/netscan)** | TCP port scanner with banner grabbing and per-port risk ratings, plus a terminal-style UI | Python · Flask |
 
