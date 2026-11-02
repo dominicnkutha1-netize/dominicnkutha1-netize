@@ -1,7 +1,7 @@
-# Dominic Nkutha
+# Busokuhle "Dominic" Nkutha
 
 **Full-stack developer · cloud & DevOps · Johannesburg, South Africa**
-Open to junior developer, IT support and graduate programme roles.
+I go by **Dominic**. Open to junior developer, IT support and graduate programme roles.
 
 I build complete systems, not demos that stop at the happy path. In practice that
 means tests, a container, health checks, and a README that tells you what does
