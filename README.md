@@ -23,11 +23,20 @@ team that ships.
 the same question and see exactly where they disagree. It runs a real lookup the moment the
 page opens: no install, no account, no server of mine in the middle.</sub>
 
+<p align="center">
+  <a href="https://dominicnkutha1-netize.github.io/subnet/"><img src="https://raw.githubusercontent.com/dominicnkutha1-netize/subnet/main/docs/screenshots/hero.png" width="100%" alt="subnet's opening screen: the headline 'Every address, accounted for', a CIDR input reading 10.0.0.0/16, example blocks for a home, an office, a cloud VPC, an IPv6 site and a point-to-point link, and a summary panel listing the block, range, usable hosts, mask, wildcard and total addresses"></a>
+</p>
+
+<sub>**[subnet](https://dominicnkutha1-netize.github.io/subnet/)** — type a CIDR block and see
+the bits that decide it. Inspect, split or plan a VLSM allocation in IPv4 or IPv6, with every
+count computed exactly and no request leaving the tab.</sub>
+
 | Project | What it is | Stack |
 |---|---|---|
 | **[resolve](https://github.com/dominicnkutha1-netize/resolve)** · [demo](https://dominicnkutha1-netize.github.io/resolve/) | DNS lookups in the browser: query Cloudflare and Google in parallel, then diff the answers to tell a stale cache from unfinished propagation | JavaScript · DNS-over-HTTPS |
 | **[envelope](https://github.com/dominicnkutha1-netize/envelope)** · [demo](https://dominicnkutha1-netize.github.io/envelope/) | Email-header analyser for suspicious mail: rebuilds the delivery path, reads the SPF, DKIM and DMARC verdicts the receiving server recorded, and names the From/Return-Path/Reply-To mismatches. Runs entirely in the browser | JavaScript · Email security |
 | **[handshake](https://github.com/dominicnkutha1-netize/handshake)** · [demo](https://dominicnkutha1-netize.github.io/handshake/) | Every phase between a URL and the first pixel — DNS, TCP/QUIC, TLS, request, download and paint — drawn to scale. Sliders and presets show why latency, not bandwidth, makes a phone feel slow. A model, not a measurement, and it never touches the network | JavaScript · HTTP · TLS |
+| **[subnet](https://github.com/dominicnkutha1-netize/subnet)** · [demo](https://dominicnkutha1-netize.github.io/subnet/) | IPv4 and IPv6 planning that shows its working: inspect a block as 32 or 128 bits, split it into aligned children, and pack host requirements into a VLSM plan. `/31` and `/32` handled explicitly, every count exact with `BigInt`, entirely offline | JavaScript · IPv4/IPv6 · VLSM |
 | **[ConnectHub](https://github.com/dominicnkutha1-netize/connecthub)** | Social network built from scratch — JWT auth, photo uploads, a friends-only feed and real-time chat. Containerised, tested, with Prometheus metrics and CI | React · Node · Socket.IO · Docker |
 | **[RichConnect](https://github.com/dominicnkutha1-netize/richconnect)** | Accessibility-first student networking. One paragraph in, a structured profile out, with sign-language and live-caption needs modelled as data | React Native · TypeScript · Supabase · Gemini |
 | **[GridGuard](https://github.com/dominicnkutha1-netize/gridguard)** · [demo](https://dominicnkutha1-netize.github.io/gridguard/) | Grid monitoring and electricity-theft detection concept: RFID-authorised field work, outage detection, anti-bridging alerts | HTML · JavaScript |
